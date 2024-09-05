@@ -15,7 +15,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
       <div className="min-h-screen bg-gray-100">
         <header className="bg-blue-600 text-white py-4 relative">
           <nav className="container mx-auto flex justify-between items-center">
-            <h1 className="text-2xl font-bold">Your Organization</h1>
+            <h1 className="text-2xl font-bold">Your Organization.</h1>
             <button onClick={toggleNav} className="block lg:hidden p-2">
               <svg
                 className="w-6 h-6"
